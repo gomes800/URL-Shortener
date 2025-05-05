@@ -1,0 +1,4 @@
+<h1>Encurtador de URL</h1>
+<input [(ngModel)]="originalUrl" placeholder="Digite a URL" />
+<button (click)="shorten()">Encurtar</button>
+<p *ngIf="shortUrl">URL curta: {{ shortUrl }}</p>
