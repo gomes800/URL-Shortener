@@ -17,8 +17,8 @@ import java.util.UUID;
 public class ShortUrl {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID uuid;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String url;
     private String shortUrl;
 
